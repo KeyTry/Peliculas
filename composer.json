@@ -9,7 +9,9 @@
         "drupal/entityqueue": "^1.0@alpha",
         "drupal/token": "^1.1",
         "drupal/pathauto": "^1.1",
-        "drupal/admin_toolbar": "^1.23"
+        "drupal/admin_toolbar": "^1.23",
+        "drush/drush": "^9.2",
+        "drupal/console": "^1.8"
     },
     "replace": {
         "drupal/core": "^8.5"
