@@ -1,0 +1,22 @@
+uuid: 1d23c5e5-868d-4ebf-b125-c76069e88f41
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patron_director
+label: 'Patron Director'
+type: 'canonical_entities:node'
+pattern: '/[current-page:page-number]/[current-page:title]'
+selection_criteria:
+  91757495-caa6-4007-9437-a3b363f2c867:
+    id: node_type
+    bundles:
+      director: director
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 91757495-caa6-4007-9437-a3b363f2c867
+selection_logic: and
+weight: -5
+relationships: {  }

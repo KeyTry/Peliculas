@@ -1,0 +1,68 @@
+uuid: 1a87dd91-a973-4db7-8591-898c69c0433a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pelicula.body
+    - field.field.node.pelicula.field_destacada
+    - field.field.node.pelicula.field_director
+    - field.field.node.pelicula.field_poster
+    - field.field.node.pelicula.field_reparto
+    - node.type.pelicula
+  module:
+    - image
+    - text
+    - user
+id: node.pelicula.default
+targetEntityType: node
+bundle: pelicula
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_destacada:
+    weight: 103
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_director:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_poster:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_reparto:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

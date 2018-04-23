@@ -1,0 +1,24 @@
+uuid: abdb9bf2-8424-4de0-80de-b1e7040fa4e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.destacadas
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__destacadas_block_1
+theme: bartik
+region: featured_top
+weight: 0
+provider: null
+plugin: 'views_block:destacadas-block_1'
+settings:
+  id: 'views_block:destacadas-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: dfc87b1f-d4dd-4626-bf17-a4435037e0f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patron_actor
+label: 'Patron Actor'
+type: 'canonical_entities:node'
+pattern: '/[current-page:page-number]/[current-page:title]'
+selection_criteria:
+  f35d004e-1b57-49a4-9870-96c6e20e9a5c:
+    id: node_type
+    bundles:
+      actor: actor
+    negate: false
+    context_mapping:
+      node: node
+    uuid: f35d004e-1b57-49a4-9870-96c6e20e9a5c
+selection_logic: and
+weight: -5
+relationships: {  }

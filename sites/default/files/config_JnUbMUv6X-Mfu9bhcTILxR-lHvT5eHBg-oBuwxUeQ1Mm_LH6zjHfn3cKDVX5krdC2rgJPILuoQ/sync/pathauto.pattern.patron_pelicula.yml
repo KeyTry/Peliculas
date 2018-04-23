@@ -1,0 +1,22 @@
+uuid: 6a6127ce-7354-472a-8661-1942d3cad142
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patron_pelicula
+label: 'Patron Película'
+type: 'canonical_entities:node'
+pattern: '/[current-page:page-number]/[current-page:title]'
+selection_criteria:
+  d974b80f-25ed-44bc-8789-906cc9c06df7:
+    id: node_type
+    bundles:
+      pelicula: pelicula
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d974b80f-25ed-44bc-8789-906cc9c06df7
+selection_logic: and
+weight: -5
+relationships: {  }
