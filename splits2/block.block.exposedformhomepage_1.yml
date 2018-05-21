@@ -1,0 +1,29 @@
+uuid: b7a0a633-42f0-43f5-b529-cb6476c7b5b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.home
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: exposedformhomepage_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:home-page_1'
+settings:
+  id: 'views_exposed_filter_block:home-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,14 @@
+{
+  "name": "drupal/email_format",
+  "type": "drupal-module",
+  "description": "Formato de Correo",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/email_format",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/email_format",
+    "source": "http://cgit.drupalcode.org/email_format"
+  },
+  "require": { }
+}

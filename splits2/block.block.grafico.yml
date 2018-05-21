@@ -1,0 +1,20 @@
+uuid: 86405612-9db7-4cf3-a3e6-c0e5ffc6d517
+langcode: en
+status: true
+dependencies:
+  module:
+    - js_3rd_party
+  theme:
+    - bartik
+id: grafico
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: grafico_block
+settings:
+  id: grafico_block
+  label: Grafico
+  provider: js_3rd_party
+  label_display: visible
+visibility: {  }

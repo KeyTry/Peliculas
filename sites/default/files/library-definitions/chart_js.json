@@ -1,0 +1,23 @@
+{
+  "name": "Chart.js",
+  "type": "asset",
+  "vendor url": "http:\/\/www.chartjs.org",
+  "download url": "https:\/\/github.com\/chartjs\/Chart.js\/releases\/latest",
+    "variants": {
+        "minified": {
+            "js": [
+                "Chart.min.js"
+            ]
+        }
+    },
+    "js": [
+        "Chart.js"
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "Chart.js",
+            "pattern": "\/Version: ([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
+}

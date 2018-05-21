@@ -1,0 +1,5 @@
+name: 'Email Format'
+type: module
+description: 'Formato de Correo'
+core: 8.x
+package: 'Custom'
